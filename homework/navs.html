@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container pt-3">
+    <h2>Simple Nav Menu Example</h2>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 3</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled Link</a>
+        </li>
+    </ul>
+</div>
+<div class="container pt-3">
+    <h2 style="text-align: center">Aligned Nav Menu Example</h2>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 3</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled Link</a>
+        </li>
+    </ul>
+</div>
+<div class="container pt-3">
+    <h2>Vertical Nav Menu Example</h2>
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 3</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled Link</a>
+        </li>
+    </ul>
+</div>
+<div class="container pt-3">
+    <h2>Tabs Example</h2>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Link 2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 3</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled Link</a>
+        </li>
+    </ul>
+</div>
+<div class="container pt-3">
+    <h2>Pills Example</h2>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Link 3</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled Link</a>
+        </li>
+    </ul>
+</div>
+<div class="container pt-3">
+    <h2>Justified Pills Example</h2>
+    <ul class="nav nav-pills nav-justified">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Link 3</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled Link</a>
+        </li>
+    </ul>
+</div>
+<div class="container pt-3">
+    <h2>Pills with dropdown example</h2>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+    </ul>
+</div>
+<div class="container pt-3">
+    <h2>Tab with dropdown example</h2>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active tab</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown tab</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Item 1</a>
+                <a class="dropdown-item" href="#">Item 2</a>
+                <a class="dropdown-item" href="#">Item 3</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Other tab</a>
+        </li>
+        <li class="nav-item disabled">
+            <a class="nav-link" href="#">Disabled tab</a>
+        </li>
+    </ul>
+</div>
+<div class="container pt-3">
+    <h2>Dynamic tabs example</h2>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane container active" id="home">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+        <div class="tab-pane container fade" id="menu1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+        <div class="tab-pane container fade" id="menu2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+    </div>
+</div>
+<div class="container pt-3">
+    <h2>Dynamic pills example</h2>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#pill1">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#pill2">Menu 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#pill3">Menu 2</a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane container active" id="pill1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+        <div class="tab-pane container fade" id="pill2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+        <div class="tab-pane container fade" id="pill3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+    </div>
+</div>
+</body>
+</html>

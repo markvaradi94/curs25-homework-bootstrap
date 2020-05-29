@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container pt-4">
+    <h2>Custom checkbox example</h2>
+    <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+        <label class="custom-control-label" for="customCheck">Check this custom checkbox</label>
+    </div>
+</div>
+<div class="container pt-4">
+    <h2>Custom switch example</h2>
+    <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="switch1">
+        <label class="custom-control-label" for="switch1">Toggle this switch</label>
+    </div>
+</div>
+<div class="container pt-4">
+    <h2>Custom radio button</h2>
+    <div class="custom-control custom-radio">
+        <input type="radio" class="custom-control-input" id="radio1">
+        <label class="custom-control-label" for="radio1">Custom radio button</label>
+    </div>
+</div>
+<div class="container pt-4">
+    <h2>Inline custom radio buttons example</h2>
+    <form>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
+            <label class="custom-control-label" for="customRadio">Custom radio button 1</label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+            <label class="custom-control-label" for="customRadio2">Custom radio button 2</label>
+        </div>
+    </form>
+</div>
+<div class="container pt-4">
+    <h2>Custom select menu example</h2>
+    <form>
+        <select class="custom-select custom-select-lg" name="cars">
+            <option selected>Select vehicle</option>
+            <option value="nissan">Nissan</option>
+            <option value="opel">Opel</option>
+            <option value="citroen">Citroen</option>
+        </select>
+    </form>
+</div>
+<div class="container pt-4">
+    <h2>Custom range example</h2>
+    <form>
+        <label for="customRange">Custom Range</label>
+        <input type="range" id="customRange" class="custom-range" name="points">
+    </form>
+</div>
+<div class="container pt-4">
+    <h2>Custom file upload example</h2>
+    <form>
+        <div class="custom-file">
+            <input type="file" class="custom-file-input" id="customFile" name="file">
+            <label class="custom-file-label" for="customFile">Choose File</label>
+        </div>
+    </form>
+    <script>
+        $(".custom-file-input").on("change", function () {
+            var fileName = $(this).val().split("\\").pop();
+            $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        })
+    </script>
+</div>
+</body>
+</html>

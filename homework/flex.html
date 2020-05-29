@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid pt-4">
+    <h2>Flexbox example center justify</h2>
+    <div class="d-flex p-3 bg-secondary text-white justify-content-center">
+        <div class="p-2 bg-warning">Item 1</div>
+        <div class="p-2 bg-info">Item 2</div>
+        <div class="p-2 bg-success">Item 3</div>
+    </div>
+    <h2>Flexbox example content around</h2>
+    <div class="d-flex p-3 bg-secondary text-white justify-content-around">
+        <div class="p-2 bg-warning">Item 1</div>
+        <div class="p-2 bg-info">Item 2</div>
+        <div class="p-2 bg-success">Item 3</div>
+    </div>
+    <h2>Flexbox example left auto margin</h2>
+    <div class="d-flex p-3 bg-secondary text-white">
+        <div class="p-2 bg-warning">Item 1</div>
+        <div class="p-2 bg-info">Item 2</div>
+        <div class="p-2 ml-auto bg-success">Item 3</div>
+    </div>
+    <h2>Flexbox example right auto margin</h2>
+    <div class="d-flex p-3 bg-secondary text-white">
+        <div class="p-2 mr-auto bg-warning">Item 1</div>
+        <div class="p-2 bg-info">Item 2</div>
+        <div class="p-2 bg-success">Item 3</div>
+    </div>
+    <h2>Flexbox example flex grow</h2>
+    <div class="d-flex p-3 bg-secondary text-white">
+        <div class="p-2 bg-warning">Item 1</div>
+        <div class="p-2 bg-info">Item 2</div>
+        <div class="p-2 bg-success flex-grow-1">Item 3</div>
+    </div>
+    <h2>Inline flexbox example</h2>
+    <div class="d-inline-flex p-3 bg-secondary text-white">
+        <div class="p-2 bg-warning">Item 1</div>
+        <div class="p-2 bg-info">Item 2</div>
+        <div class="p-2 bg-success">Item 3</div>
+    </div>
+    <h2>Reverse flex row</h2>
+    <div class="d-flex flex-row-reverse p-3 bg-secondary text-white justify-content-between">
+        <div class="p-2 bg-warning flex-fill">Item 1</div>
+        <div class="p-2 bg-info flex-fill">Item 2</div>
+        <div class="p-2 bg-success flex-fill">Item 3</div>
+    </div>
+</div>
+<div class="container-fluid pt-4">
+    <h2>Flex columns example</h2>
+    <div class="d-flex flex-column">
+        <div class="p-2 bg-warning">Item 1</div>
+        <div class="p-2 bg-info">Item 2</div>
+        <div class="p-2 bg-success">Item 3</div>
+    </div>
+    <h2>Reverse Flex columns example</h2>
+    <div class="d-flex flex-column-reverse">
+        <div class="p-2 bg-warning">Item 1</div>
+        <div class="p-2 bg-info">Item 2</div>
+        <div class="p-2 bg-success">Item 3</div>
+    </div>
+</div>
+<div class="container-fluid pt-4">
+    <h2>Flex wrapping example</h2>
+    <div class="d-flex flex-wrap">
+        <div class="p-2 border">Item 1</div>
+        <div class="p-2 border">Item 2</div>
+        <div class="p-2 border">Item 3</div>
+        <div class="p-2 border">Item 4</div>
+        <div class="p-2 border">Item 5</div>
+        <div class="p-2 border">Item 6</div>
+        <div class="p-2 border">Item 7</div>
+        <div class="p-2 border">Item 8</div>
+        <div class="p-2 border">Item 9</div>
+        <div class="p-2 border">Item 10</div>
+    </div>
+</div>
+<div class="container-fluid pt-4">
+    <h2>Flex wrapping example with content alignment</h2>
+    <div class="d-flex flex-wrap justify-content-around">
+        <div class="p-2 border">Item 1</div>
+        <div class="p-2 border">Item 2</div>
+        <div class="p-2 border">Item 3</div>
+        <div class="p-2 border">Item 4</div>
+        <div class="p-2 border">Item 5</div>
+        <div class="p-2 border">Item 6</div>
+        <div class="p-2 border">Item 7</div>
+        <div class="p-2 border">Item 8</div>
+        <div class="p-2 border">Item 9</div>
+        <div class="p-2 border">Item 10</div>
+    </div>
+</div>
+<div class="container-fluid pt-4">
+    <h2>Flex wrapping example with item alignment</h2>
+    <div class="d-flex flex-wrap align-items-stretch">
+        <div class="p-2 border">Item 1</div>
+        <div class="p-2 border">Item 2</div>
+        <div class="p-2 border">Item 3</div>
+        <div class="p-2 border">Item 4</div>
+        <div class="p-2 border">Item 5</div>
+        <div class="p-2 border">Item 6</div>
+        <div class="p-2 border">Item 7</div>
+        <div class="p-2 border">Item 8</div>
+        <div class="p-2 border">Item 9</div>
+        <div class="p-2 border">Item 10</div>
+    </div>
+</div>
+<div class="container-fluid pt-4">
+    <h2>Self align example</h2>
+    <div class="d-flex flex-wrap">
+        <div class="p-2 border align-self-baseline">Item 1</div>
+        <div class="p-2 border">Item 2</div>
+        <div class="p-2 border align-self-center">Item 3</div>
+        <div class="p-2 border">Item 4</div>
+        <div class="p-2 border align-self-stretch">Item 5</div>
+        <div class="p-2 border">Item 6</div>
+        <div class="p-2 border align-self-end">Item 7</div>
+        <div class="p-2 border">Item 8</div>
+        <div class="p-2 border">Item 9</div>
+        <div class="p-2 border">Item 10</div>
+    </div>
+</div>
+</body>
+</html>
